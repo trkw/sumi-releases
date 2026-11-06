@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Sumi</title>
+    <link>https://github.com/trkw/sumi-releases/releases</link>
+    <description>Sumi のアップデート</description>
+    <language>ja</language>
+    <item>
+      <title>Sumi 0.8.0</title>
+      <pubDate>Fri, 06 Nov 2026 05:34:54 +0000</pubDate>
+      <link>https://github.com/trkw/sumi-releases/releases/tag/v0.8.0</link>
+      <sparkle:version>0.8.0</sparkle:version>
+      <sparkle:shortVersionString>0.8.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <sparkle:fullReleaseNotesLink>https://github.com/trkw/sumi-releases/releases/tag/v0.8.0</sparkle:fullReleaseNotesLink>
+      <description><![CDATA[<h2>Rex ランプ・進行中・閾値自動移動</h2>
+<h3>新機能</h3><ul><li>別のマシンで動いている Rex のセッションも、rex hosts に足してあれば様子をランプで見られる。読めないときは「別のマシン」「読めない」と出す</li><li>Rex のセッションが入力を待ったときと、PR の無いまま止まったときに、通知で知らせる。押すとそのタスクを開く</li><li>進行中のランプを押すと Rex のセッションを開ける。詳細と右クリックから、セッションに文を送る・作業を止めるもできる</li><li>受信したタスクのプロジェクトの候補は、一致率が設定した閾値以上なら確かめずにそのプロジェクトへ入れられる (設定 &gt; ライブラリと同期。既定はオフ。最高点が同点なら受信で選ぶ)</li></ul>
+<h3>変更</h3><ul><li>「進行中」の一覧を、あなたを待っている・作業中・止まっているかも・動きが見えない の順に分けて出す</li><li>Rex に渡したタスクの行に、今の様子と作業の内容を出す</li></ul>]]></description>
+      <enclosure url="https://github.com/trkw/sumi-releases/releases/download/v0.8.0/Sumi-0.8.0.dmg"
+        length="10582049" type="application/octet-stream" sparkle:edSignature="zdzh2U4QTT5I5/8hZ8Fj8bXE0OVgzyA47DOD4J423pzW+ueoAk91ZglLK035JHutX00yLigmE45dTbo0rJOGCg=="/>
+    </item>
+  </channel>
+</rss>
